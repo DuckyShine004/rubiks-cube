@@ -4,7 +4,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-enum DIRECTIONS { F, B, L, R, U, D };
+enum DIRECTIONS { FORWARD, BACK, LEFT, RIGHT, UP, DOWN };
 
 const float YAW = -90.f;
 const float PITCH = 0.0f;
@@ -41,27 +41,27 @@ class Camera {
     void process_keyboard(DIRECTIONS direction, float delta_time) {
         float velocity = speed * delta_time;
 
-        if (direction == F) {
+        if (direction == FORWARD) {
             position += front * velocity;
         }
 
-        if (direction == B) {
+        if (direction == BACK) {
             position -= front * velocity;
         }
 
-        if (direction == L) {
+        if (direction == LEFT) {
             position -= right * velocity;
         }
 
-        if (direction == R) {
+        if (direction == RIGHT) {
             position += right * velocity;
         }
 
-        if (direction == U) {
+        if (direction == UP) {
             position += up * velocity;
         }
 
-        if (direction == D) {
+        if (direction == DOWN) {
             position -= up * velocity;
         }
     }

@@ -3,25 +3,36 @@
 
 #include "glad/glad.h"
 
-#define O 0.95, 0.55, 0.16
-#define W 1.0, 1.0, 1.0
-#define G 0.66, 1.0, 0.0
+#define ORANGE 1.0, 0.5, 0.0
+#define WHITE 1.0, 1.0, 1.0
+#define YELLOW 1.0, 1.0, 0.0
+#define RED 1.0, 0.0, 0.0
+#define GREEN 0.0, 1.0, 0.0
+#define BLUE 0.0, 0.0, 1.0
 
-extern const GLfloat COLOR_GOW[] = { // Left
-    G, G, G, G, G, G,
+#define ALL_ORANGE ORANGE, ORANGE, ORANGE, ORANGE, ORANGE, ORANGE
+#define ALL_WHITE WHITE, WHITE, WHITE, WHITE, WHITE, WHITE
+#define ALL_YELLOW YELLOW, YELLOW, YELLOW, YELLOW, YELLOW, YELLOW
+#define ALL_RED RED, RED, RED, RED, RED, RED
+#define ALL_GREEN GREEN, GREEN, GREEN, GREEN, GREEN, GREEN
+#define ALL_BLUE BLUE, BLUE, BLUE, BLUE, BLUE, BLUE
+
+extern const GLfloat COLOR_GOW[] = {
+    // Left
+    ALL_GREEN,
 
     // Right
-    W, W, W, W, W, W,
+    ALL_BLUE,
 
     // Front
-    W, W, W, W, W, W,
+    ALL_ORANGE,
 
     // Back
-    W, W, W, W, W, W,
+    ALL_RED,
 
     // Bottom
-    W, W, W, W, W, W,
+    ALL_WHITE,
 
     // Top
-    O, O, O, O, O, O};
+    ALL_YELLOW};
 #endif
