@@ -33,7 +33,6 @@
 
 # Cache
 .ccls-cache
-.git
 
 # Builds
 # build/
