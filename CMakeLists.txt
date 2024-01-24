@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
-project(shapegl)
+project(rubiks-cube)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)

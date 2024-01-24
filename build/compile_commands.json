@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/build",
+  "command": "/usr/bin/c++  -I/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/include -std=gnu++17 -o CMakeFiles/rubiks-cube.dir/src/main.cpp.o -c /home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/src/main.cpp",
+  "file": "/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/src/main.cpp"
+},
+{
+  "directory": "/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/build",
+  "command": "/usr/bin/cc  -I/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/include  -o CMakeFiles/rubiks-cube.dir/src/glad.c.o -c /home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/src/glad.c",
+  "file": "/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/src/glad.c"
+}
+]
