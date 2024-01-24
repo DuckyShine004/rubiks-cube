@@ -1,0 +1,3 @@
+/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/build/CMakeFiles/rubiks-cube.dir
+/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/build/CMakeFiles/edit_cache.dir
+/home/duckyshine04/Documents/projects/cpp-projects/rubiks-cube/build/CMakeFiles/rebuild_cache.dir

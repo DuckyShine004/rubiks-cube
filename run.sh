@@ -13,7 +13,7 @@ make
 ln -sf $(pwd)/compile_commands.json ../compile_commands.json
 
 # Run the application
-./shapegl
+./rubiks-cube
 
 # Navigate back to the root directory
 cd ..
