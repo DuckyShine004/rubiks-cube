@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Cache
+.ccls-cache
+.git
+
+# Builds
+build/
+
+# Includes
+include/glad/
+include/KHR/
+
