@@ -35,9 +35,9 @@
 .ccls-cache
 
 # Builds
-# build/
+build/
 
 # Includes
-# include/glad/
-# include/KHR/
+include/glad/
+include/KHR/
 

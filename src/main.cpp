@@ -179,27 +179,27 @@ static void key_callback(GLFWwindow *window) {
     }
 
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-        camera.process_keyboard(F, delta_time);
+        camera.process_keyboard(FORWARD, delta_time);
     }
 
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-        camera.process_keyboard(B, delta_time);
+        camera.process_keyboard(BACK, delta_time);
     }
 
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        camera.process_keyboard(L, delta_time);
+        camera.process_keyboard(LEFT, delta_time);
     }
 
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        camera.process_keyboard(R, delta_time);
+        camera.process_keyboard(RIGHT, delta_time);
     }
 
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
-        camera.process_keyboard(U, delta_time);
+        camera.process_keyboard(UP, delta_time);
     }
 
     if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
-        camera.process_keyboard(D, delta_time);
+        camera.process_keyboard(DOWN, delta_time);
     }
 }
 
